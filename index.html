@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman Game</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <h1>Hangman</h1>
+  <br>
+  <h3>Press any key to get started!</h3>
+  <hr>
+  <p>Wins: <span id="score">0</span></p>
+  <br>
+  <h3>Current word</h3>
+  <p id="curr_pattern"></p>
+  <br>
+
+  <h3>Number of guesses remaining</h3>
+  <p><span id="guesses"></span></p>
+  <br>
+  <h3>Letters already guessed</h3>
+  <p id="tried_letters"></p>
+  <br>
+  <hr>
+  <p id="answer"></p>
+  <p id="finish"></p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
