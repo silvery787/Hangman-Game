@@ -1,11 +1,24 @@
-h1, h3 {
-	font-size: 30px;
+body {
+	text-align: center;
+	background-color: black;
+}
+h1 {
+	font-size: 180px;
+	font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+	font-size: 38px;
+	font-family: 'Tangerin', cursive;
+	color: white;
 }
 h3 {
 	font-size: 25px;
+	font-family: 'Handlee', cursive;
 }
-p {
-	font-size: 23px;
+p, span {
+	font-size: 25px;
+	font-family: 'Handlee', cursive;
 }
 
 #tried_letters {
@@ -14,12 +27,59 @@ p {
 #curr_pattern {
 	color: green;
 }
-#score {
-	color: blue;
-}
-#guesses {
+#score, #guesses {
 	color: blue;
 }
 #answer {
-	color: blue;
+	font-size: 50px;
+	font-family: 'Handlee', cursive;
+	/*padding: 10px;*/
+	font-weight: bold;
+	padding-bottom: 25px;
+	padding-top: 0px;
+}
+
+/* =============== */
+.pic_text { 	
+	background: url(../images/misty_mount.jpg) 100% 20%;
+	background-size: cover;
+}
+.pic_text h1 { 
+	font-size: 180px;
+	color: #fff;
+	background: #000;
+	mix-blend-mode: darken;
+}
+
+#content {
+	background: url(../images/scroll2.jpeg) 90% 900%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 800px;
+	padding-top: 120px;
+	padding-bottom: 100px;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+#theme_title {
+	/*background: url(../images/fellowship2.jpg);*/
+	/*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    color: #f2ce9f;
+    /*height: 260px; */
+}
+
+#game_picture {
+	width: 350px;
+}
+
+.ring_pic {
+	width: 50px;
+	height: 50px;
+}
+
+#finish {
+	padding-bottom: 12px;
 }
