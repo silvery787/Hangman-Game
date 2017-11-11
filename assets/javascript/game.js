@@ -14,7 +14,7 @@ var curr_word = "";
 
 var quiz = {
   q1 : ["frodo", "Frodo Baggins", "Frodo.jpg", "audio"],
-  q2 : ["gandalf", "Gandalf the White (Grey)", "Gandalf.jpg", "uyB6yMnh0Ic"],
+  q2 : ["gandalf", "Gandalf the White (Grey)", "Gandalf.jpg", "audio"],
   q3 : ["legolas", "Legolas", "Legolas.jpg", "audio"],
   q4 : ["aragorn", "Aragorn the Strider", "Aragorn.jpg", "audio"],
   q5 : ["gimli", "Gimli", "Gimli.jpeg", "audio"],
@@ -181,5 +181,3 @@ $(document).ready(function() {
   });
 
 });
-
-//document.getElementById('yourAudioTag').play();

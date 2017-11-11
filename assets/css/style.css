@@ -2,21 +2,20 @@ body {
 	text-align: center;
 	background-color: black;
 }
-h1 {
-	font-size: 180px;
-	font-family: 'Shrikhand', cursive;
+
+.pic_text { 	
+	background: url(../images/misty_mount.jpg) 90% 20%;
+	background-size: cover;
+}
+.pic_text h1 { 
+	font-size: 150px;
+	color: #fff;
+	background: #000;
+	mix-blend-mode: darken;
+	font-family: 'Quintessential', cursive;
 }
 
-h2 {
-	font-size: 38px;
-	font-family: 'Tangerin', cursive;
-	color: white;
-}
-h3 {
-	font-size: 25px;
-	font-family: 'Handlee', cursive;
-}
-p, span {
+h3, p, span {
 	font-size: 25px;
 	font-family: 'Handlee', cursive;
 }
@@ -33,26 +32,13 @@ p, span {
 #answer {
 	font-size: 50px;
 	font-family: 'Handlee', cursive;
-	/*padding: 10px;*/
 	font-weight: bold;
 	padding-bottom: 25px;
 	padding-top: 0px;
 }
 
-/* =============== */
-.pic_text { 	
-	background: url(../images/misty_mount.jpg) 100% 20%;
-	background-size: cover;
-}
-.pic_text h1 { 
-	font-size: 180px;
-	color: #fff;
-	background: #000;
-	mix-blend-mode: darken;
-}
-
 #content {
-	background: url(../images/scroll2.jpeg) 90% 900%;
+	background: url(../images/scroll2.jpeg) 90% 200%;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 1000px;
@@ -63,23 +49,54 @@ p, span {
 	padding-left: 50px;
 }
 
-#theme_title {
-	/*background: url(../images/fellowship2.jpg);*/
-	/*background-repeat: no-repeat;*/
-    /*background-position: center;*/
+#theme_title span {
     color: #f2ce9f;
-    /*height: 260px; */
+    font-size: 70px;
+    font-family: 'Niconne', cursive;
 }
 
 #game_picture {
 	width: 350px;
+	border-radius : 10px;
+	border: 2px solid black;
 }
 
 .ring_pic {
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
+	padding: 0px 20px 20px 20px;
 }
 
 #finish {
-	padding-bottom: 12px;
+	padding-bottom: 10px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* =============== */
+
+@media screen and (max-width: 980px) {
+	.pic_text h1 {
+		font-size: 100px;
+	}
+	#theme_title span {
+    	font-size: 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.pic_text h1 {
+		font-size: 90px;
+	}
+	#theme_title span {
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.pic_text h1 {
+		font-size: 80px;
+	}
+	#theme_title span {
+		font-size: 25px;
+	}
 }
